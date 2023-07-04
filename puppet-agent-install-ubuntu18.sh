@@ -17,7 +17,7 @@ apt install -y puppet-agent
 cat >  /etc/puppetlabs/puppet/puppet.conf <<EOF
 [main]
 certname = `hostname`
-server = pup01.darole.org
+server = pup01
 environment = production
 runinterval = 1h
 EOF
